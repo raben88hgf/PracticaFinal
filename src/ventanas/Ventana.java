@@ -177,16 +177,16 @@ public class Ventana extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         
-        String Usuario="Yo";
-        String Contraseña="1234";
+        String Usuario="Yoo";
+        String Contraseña="1324";
         
-        String passw =new  String(jPasswordField1.getPassword());
-        
+        String passw = new String(jPasswordField1.getPassword());
+         
         if(txtUsuario.getText().equals(Usuario)&& passw.equals(Contraseña)){
     
         
-        Ventana home = new Ventana();
-        home.setVisisble(true);
+        Ventana2 home = new Ventana2();
+        home.setVisible(true);
     
         
     }
