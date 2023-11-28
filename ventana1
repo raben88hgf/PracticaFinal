@@ -1,0 +1,21 @@
+ //boton ingresar
+        String Usuario="Yoo";
+        String Contraseña="1324";
+        
+        String passw = new String(jPasswordField1.getPassword());
+         
+        if(txtUsuario.getText().equals(Usuario)&& passw.equals(Contraseña)){
+    
+        
+        Ventana2 home = new Ventana2();
+        home.setVisible(true);
+    
+        
+    }
+    else{
+    JOptionPane.showMessageDialog(this, "Usuario Contraseña falliuda");
+        }
+
+
+//salir 
+System.exit(0);
